@@ -1,4 +1,4 @@
-iimport { createRoot } from "react-dom/client"
+import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
 
 function MyAwesomeNavbar() {
@@ -48,13 +48,21 @@ function MyAwesomeNavbar() {
  * Afterward, render it on the line below MyAwesomeNavbar
  */
 
+
+function MainContent() {
+    return <h1>React is great</h1>
+}
+root.render(
+    <div>
+        
+    </div>
+)
 function MainContent() {
     return <h1>React is great!</h1>
 }
-
 root.render(
     <div>
-        <MyAwesomeNavbar />
-        <MainContent />
+        <MyAwesomeNavbar/>
+        <MainContent/.
     </div>
 )
