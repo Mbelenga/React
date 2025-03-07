@@ -63,6 +63,6 @@ function MainContent() {
 root.render(
     <div>
         <MyAwesomeNavbar/>
-        <MainContent/.
+        <MainContent/>
     </div>
 )
