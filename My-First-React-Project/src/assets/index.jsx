@@ -10,3 +10,4 @@ Don't use innerHTML to accomplish any of this. **/
 const h1 = document.getElementByIdZ('h1')
 h1.texContent = "Hello, React"
 h1.className = "header"
+const root = document.getElementById('root').appendChild(h1)
