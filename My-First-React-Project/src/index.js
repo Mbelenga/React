@@ -11,3 +11,11 @@ export default function MyApp() {
     </div>
   );
 }
+function AboutPage() {
+  return(
+    <>
+    <h1>How are you</h1>
+    <p>How do you do <br/> Are you ok</p>
+    </>
+  );
+}
