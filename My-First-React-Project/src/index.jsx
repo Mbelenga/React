@@ -19,11 +19,11 @@ root.render(
     <img/>
     <h1></h1>
     <ul>
-        <li></li>
+        <li>React is cool</li>
         <li></li>
         <li></li>
         <li></li>
         <li></li>
     </ul>
   </main>
-)
+);
