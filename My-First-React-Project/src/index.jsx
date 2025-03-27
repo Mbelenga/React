@@ -2,7 +2,11 @@ import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
 
 root.render(
-    <main>
+    name()
+)
+function name() {
+    return (
+        <main>
         <img src="public/react-logo.jpeg" width="40px" alt="React logo" />
         <h1>Fun facts about React!</h1>
         <ul>
@@ -13,4 +17,5 @@ root.render(
             <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
     </main>
-)
+    )
+}
