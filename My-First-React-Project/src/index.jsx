@@ -3,7 +3,7 @@ const root = createRoot(document.getElementById("root"))
 
 root.render(
     <main>
-        <img src="react-logo.png" width="40px" alt="React logo" />
+        <img src="public/react-logo.jpeg" width="40px" alt="React logo" />
         <h1>Fun facts about React!</h1>
         <ul>
             <li>Was first release in 2013</li>
