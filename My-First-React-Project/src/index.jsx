@@ -1,2 +1,2 @@
 import { CreateRoot } from "react-dom/client"
-const root = 
+const root = CreateRoot(document.getElementById('root'))
