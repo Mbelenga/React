@@ -1,12 +1,13 @@
-import { createRoot } from "react-dom/client"
+import { createRoot } from 'react-dom/client'
 const root = createRoot(document.getElementById('root'))
 
 function Page() {
     return(
-        <ol>Hello There</ol>
+        <ol>
+            <li>I am learning react</li>
+        </ol>
     )
 }
-
 root.render(
-    <Page/>
+    <page/>
 )
