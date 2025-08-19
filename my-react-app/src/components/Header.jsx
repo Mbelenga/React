@@ -28,7 +28,7 @@ const Header = ({ darkMode, toggleDarkMode, currentPage, setCurrentPage }) => {
             onClick={() => navigateToPage('home')}
             className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            TM
+            Terrence Mbelenga
           </button>
           
           {/* Desktop Navigation */}
