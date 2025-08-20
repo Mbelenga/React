@@ -23,8 +23,10 @@ const Home = ({ darkMode, setCurrentPage }) => {
         },
         {
             title: "Get In Touch",
-            description: ""
+            description: "Open to collaborations,opportunities,and meaningful conversations - always ready to learn and grow",
+            icon: MessageCircle,
+            color: "from-pink-500 to-pink-600",
+            page: "contact"
         }
-
-    ]
+    ];
 }
