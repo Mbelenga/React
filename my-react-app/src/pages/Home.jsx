@@ -156,3 +156,4 @@ const Home = ({ darkMode, setCurrentPage }) => {
     </div>
   );
 };
+export default Home;

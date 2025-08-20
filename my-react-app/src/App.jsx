@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Header from './components/Header';   // 👈 import your Header
+import Header from './components/Header'; //import your Header
+import Home from "./components/Home";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
