@@ -9,7 +9,16 @@ const Home = ({ darkMode, setCurrentPage }) => {
         },
         {
             title: "My Projects",
-            description: ""
+            description: "Here are some of the projects i have built",
+            icon: FolderOpen,
+            color: "from-purple-500 to-purple-600",
+            page: "projects"
+        },
+        {
+            title: "Technical Skills",
+            description: "The programming languages, frameworks,and tools I specialize in.",
+            
         }
+
     ]
 }
