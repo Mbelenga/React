@@ -1,6 +1,3 @@
-// 📁 FOLDER: my-react-app/src/
-// 📄 FILE: App.js
-
 import React, { useState } from 'react';
 
 // Import your components (make sure these paths match your folder structure)
@@ -11,7 +8,7 @@ import Projects from './pages/Projects.jsx';
 import Skills from './pages/Skills.jsx';
 import Contact from './pages/Contact.jsx';
 
-const Portfolio = () => {
+const App = () => {
   const [darkMode, setDarkMode] = useState(true);
   const [currentPage, setCurrentPage] = useState('home');
 
@@ -52,4 +49,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default App;
