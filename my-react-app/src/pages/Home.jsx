@@ -60,7 +60,8 @@ const Home = ({ darkMode, setCurrentPage }) => {
           
           <p className="text-lg md:text-xl mb-12 text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
             Passionate about solving real-world problems through technology. I believe in doing hard things 
-            and creating meaningful impact through code. Welcome to my digital space where creativity meets functionality.
+            and creating meaningful impact through code. Always curious and eager to learn,
+            I embrace challenges as opportunities to grow.”
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
