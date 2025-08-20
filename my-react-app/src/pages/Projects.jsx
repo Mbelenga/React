@@ -126,3 +126,4 @@ const categories = ['All', 'Frontend', 'Backend', 'Full-Stack'];
     </div>
   );
 };
+export default Projects;
