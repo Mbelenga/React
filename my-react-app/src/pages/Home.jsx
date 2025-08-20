@@ -17,7 +17,13 @@ const Home = ({ darkMode, setCurrentPage }) => {
         {
             title: "Technical Skills",
             description: "The programming languages, frameworks,and tools I specialize in.",
-            
+            icon: Award,
+            color: "from-purple-500 to-purple-600",
+            page: "skills"
+        },
+        {
+            title: "Get In Touch",
+            description: ""
         }
 
     ]
