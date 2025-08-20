@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import Header from "./components/Header";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,15 +13,15 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case "about":
-        return <About darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+        return <About />;
       case "projects":
-        return <Projects darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+        return <Projects />;
       case "skills":
-        return <Skills darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+        return <Skills />;
       case "contact":
-        return <Contact darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+        return <Contact />;
       default:
-        return <Home darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+        return <Home />;
     }
   };
 
@@ -32,7 +32,7 @@ function App() {
         setDarkMode={setDarkMode}
         setCurrentPage={setCurrentPage}
       />
-      {renderPage()}
+      <div className="p-6">{renderPage()}</div>
     </div>
   );
 }
