@@ -69,3 +69,4 @@ const About = ({ darkMode, setCurrentPage }) => {
     </div>
   );
 };
+export default About;

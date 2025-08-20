@@ -1,40 +1,55 @@
-import React, { useState } from "react";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
-import Header from "./components/Header";
+// 📁 FOLDER: my-react-app/src/
+// 📄 FILE: App.js
 
-function App() {
-  const [darkMode, setDarkMode] = useState(false);
-  const [currentPage, setCurrentPage] = useState("home");
+import React, { useState } from 'react';
 
-  const renderPage = () => {
+// Import your components (make sure these paths match your folder structure)
+import Header from './components/Header.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
+import Skills from './pages/Skills.jsx';
+import Contact from './pages/Contact.jsx';
+
+const Portfolio = () => {
+  const [darkMode, setDarkMode] = useState(true);
+  const [currentPage, setCurrentPage] = useState('home');
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  const renderCurrentPage = () => {
     switch (currentPage) {
-      case "about":
-        return <About />;
-      case "projects":
-        return <Projects />;
-      case "skills":
-        return <Skills />;
-      case "contact":
-        return <Contact />;
+      case 'home':
+        return <Home darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+      case 'about':
+        return <About darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+      case 'projects':
+        return <Projects darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+      case 'skills':
+        return <Skills darkMode={darkMode} setCurrentPage={setCurrentPage} />;
+      case 'contact':
+        return <Contact darkMode={darkMode} setCurrentPage={setCurrentPage} />;
       default:
-        return <Home />;
+        return <Home darkMode={darkMode} setCurrentPage={setCurrentPage} />;
     }
   };
 
   return (
-    <div className={darkMode ? "dark bg-gray-900 text-white" : "bg-white text-black"}>
-      <Header
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
+    <div className={`min-h-screen transition-all duration-300 ${
+      darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'
+    }`}>
+      <Header 
+        darkMode={darkMode} 
+        toggleDarkMode={toggleDarkMode}
+        currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
-      <div className="p-6">{renderPage()}</div>
+      
+      {renderCurrentPage()}
     </div>
   );
-}
+};
 
-export default App;
+export default Portfolio;
