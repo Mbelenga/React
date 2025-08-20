@@ -17,9 +17,8 @@ const About = ({ darkMode, setCurrentPage }) => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg mb-6 leading-relaxed">
-                I'm passionate about transforming complex challenges into elegant solutions through code. 
-                What drives me isn't just writing software—it's the belief that technology can genuinely 
-                improve people's lives.
+                I'm passionate about solving complex real-World problems and finding solutions to them through code. 
+                For me being a developer is more than just writing code, it's about continous learning and also embracing challenges
               </p>
               <p className="text-lg mb-6 leading-relaxed">
                 I embrace the mindset of "doing hard things." Every challenging project is an opportunity 
