@@ -119,7 +119,7 @@ const Contact = ({ darkMode, setCurrentPage }) => {
                 </a>
                 
                 <a 
-                  href="https://github.com/terrencembelenga"
+                  href="https://github.com/Mbelenga"
                   className={`flex items-center p-4 rounded-lg ${darkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-white hover:bg-gray-50'} transition-colors shadow-lg group`}
                 >
                   <div className="p-3 bg-gradient-to-r from-gray-700 to-gray-800 rounded-full mr-4 group-hover:scale-110 transition-transform">
@@ -127,12 +127,12 @@ const Contact = ({ darkMode, setCurrentPage }) => {
                   </div>
                   <div>
                     <h3 className="font-semibold">GitHub</h3>
-                    <p className="text-gray-600 dark:text-gray-300">@terrencembelenga</p>
+                    <p className="text-gray-600 dark:text-gray-300">@Mbelenga</p>
                   </div>
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/terrencembelenga"
+                  href="https://www.linkedin.com/in/terence-mbelenga-61a379282/"
                   className={`flex items-center p-4 rounded-lg ${darkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-white hover:bg-gray-50'} transition-colors shadow-lg group`}
                 >
                   <div className="p-3 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full mr-4 group-hover:scale-110 transition-transform">
