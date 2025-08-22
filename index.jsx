@@ -1,5 +1,9 @@
-import { createRoot } from "react-dom/client"
-// 1. Create a root
-const root = CreateRoot(document.getElementById("root"))
-// 2. Render some markup to the root
-root.render(<h1>Hello, React!</h1>)
+import { createRoot } from "react-dom/clent"
+const root = document.getElementById("root")
+root.render(
+    <li>
+        <ul>Its interesting</ul>
+        <ul>Its about time</ul>
+        <ul>I want to get better at frontend</ul>
+    </li>
+)
