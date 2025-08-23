@@ -4,6 +4,6 @@ root.render(
     <li>
         <ul>Its interesting</ul>
         <ul>Its about time</ul>
-        <ul>I want to get better at frontend</ul>
+        <ul>I want to be better in Frontend</ul>
     </li>
 )
